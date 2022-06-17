@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+header img {
+    height: 2rem;
+}
+
+header button {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    background-image: url("images/hamburgermenu.svg");
+    background-position: 0;
+    background-repeat: no-repeat;
+    height: 2rem;
+    padding: 0 0 0 2.5rem;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/spices.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    color: white;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero a {
+    color: #bf6c27;
+    background-color: #f7ce55;
+    border: 2px solid #bf6c27;
+    border-radius: 1rem;
+    line-height: 2rem;
+    text-decoration: none;
+    padding: 0 2rem;
+}
+
+.features {
+    flex: 1;
+    background-color: #cccccc;
+    padding: 3rem 1rem 1rem 1rem;
+}
+
+.features-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features article {
+    display: flex;
+    flex: 50%;
+    margin-bottom: 2rem;
+    padding-right: 2rem;
+}
+
+.features article img {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+}
+
+.features article h2,
+.features article p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin: 0;
+}
+
+footer {
+    color: white;
+    background-color: #666666;
+    line-height: 3rem;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 640px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+    .features article {
+        flex: 100%;
+        margin-bottom: 2rem;
+    }
+}

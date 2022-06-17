@@ -1,0 +1,25 @@
+{
+    "name": "spiced-activities",
+    "version": "0.0.1",
+    "description": "This repository contains finished versions of the FS activities of the first part of the course (i.e. until the start of the projects).",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/spicedacademy/spiced-activities.git"
+    },
+    "keywords": [],
+    "author": "SPICED Academy",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/spicedacademy/spiced-activities/issues"
+    },
+    "homepage": "https://github.com/spicedacademy/spiced-activities#readme",
+    "dependencies": {
+        "chalk": "^5.0.1",
+        "express": "^4.18.1",
+        "marked": "^4.0.17"
+    }
+}

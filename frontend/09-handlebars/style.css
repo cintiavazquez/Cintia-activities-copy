@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+}
+
+.author {
+    background-color: lightskyblue;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    max-width: 50rem;
+}
+
+.author time {
+    font-weight: normal;
+}
+
+.author img {
+    max-width: 200px;
+}
+
+.author blockquote {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.author ul {
+    margin: 0;
+    padding: 0 0 0 1rem;
+}

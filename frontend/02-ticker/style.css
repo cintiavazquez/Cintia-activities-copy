@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    background-color: dodgerblue;
+}
+
+.ticker {
+    width: 100%;
+    overflow-x: hidden;
+    height: 40px;
+    background-color: white;
+    position: relative;
+}
+
+.ticker-wrapper {
+    white-space: nowrap;
+    position: absolute;
+    left: 100%;
+}
+
+.ticker a {
+    color: black;
+    line-height: 40px;
+    padding: 0 10px;
+}
+
+.ticker a.first {
+    padding-left: 2rem;
+}
+
+.ticker a:hover {
+    color: blue;
+}

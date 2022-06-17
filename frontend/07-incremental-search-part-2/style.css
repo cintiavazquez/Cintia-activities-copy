@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 1rem;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.spiced-search {
+    position: relative;
+    width: 300px;
+}
+
+.spiced-search input {
+    line-height: 2rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    margin: 0;
+}
+
+.spiced-search .suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.spiced-search .suggestions {
+    position: absolute;
+    top: 2.25rem;
+    left: 0;
+    right: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.spiced-search .suggestions li {
+    line-height: 2rem;
+    padding: 0 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.spiced-search .suggestions li.selected,
+.spiced-search .suggestions li:not(.no-results):hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.spiced-search .suggestions li.no-results {
+    color: gray;
+}

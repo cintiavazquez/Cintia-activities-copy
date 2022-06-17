@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spotify Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Spotify Search</h1>
+                <form>
+                    <input
+                        type="search"
+                        name="query"
+                        placeholder="Type some text to search"
+                        required
+                        class="query-field"
+                    />
+                    <select name="type" class="type-field">
+                        <option value="artist">Artist</option>
+                        <option value="album">Album</option>
+                    </select>
+                    <button type="submit">Search</button>
+                </form>
+            </header>
+
+            <section class="results">
+                <h2 class="result-title"></h2>
+                <ul class="result-list"></ul>
+                <p>
+                    <button class="load-more-button">More</button>
+                </p>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
